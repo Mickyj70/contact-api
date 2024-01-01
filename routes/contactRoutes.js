@@ -16,3 +16,5 @@ router.route("/:id").delete((req, res) => {
 router.route("/:id").get((req, res) => {
   res.status(200).json({ message: "Get contact" });
 });
+
+module.exports = router;
